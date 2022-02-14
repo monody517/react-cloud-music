@@ -1,37 +1,13 @@
-import {forwardRef, useEffect, useImperativeHandle, useRef, useState} from "react";
+import React,{forwardRef, useEffect, useImperativeHandle, useRef, useState} from "react";
 import BScroll from "better-scroll"
+import PropTypes from "prop-types";
+import styled from'styled-components';
 
 const ScrollContainer = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
 `
-
-Scroll.propTypes = {
-    direction: PropTypes.oneOf (['vertical', 'horizental']),// 滚动的方向
-    click: true,// 是否支持点击import BScroll from "better-scroll"
-    refresh: PropTypes.bool,// 是否刷新
-    onScroll: PropTypes.func,// 滑动触发的回调函数
-    pullUp: PropTypes.func,// 上拉加载逻辑
-    pullDown: PropTypes.func,// 下拉加载逻辑
-    pullUpLoading: PropTypes.bool,// 是否显示上拉 loading 动画
-    pullDownLoading: PropTypes.bool,// 是否显示下拉 loading 动画
-    bounceTop: PropTypes.bool,// 是否支持向上吸顶
-    bounceBottom: PropTypes.bool// 是否支持向下吸底
-};
-
-Scroll.defaultProps = {
-    direction: "vertical",
-    click: true,
-    refresh: true,
-    onScroll:null,
-    pullUpLoading: false,
-    pullDownLoading: false,
-    pullUp: null,
-    pullDown: null,
-    bounceTop: true,
-    bounceBottom: true
-};
 
 const Scroll = forwardRef((props,ref)=>{
     const [bScroll,setBScroll] = useState();
@@ -41,14 +17,15 @@ const Scroll = forwardRef((props,ref)=>{
 
     useEffect(()=>{
         const scroll = new BScroll(scrollContaninerRef.current,{
-            scrollX:direction === 'horizental',
+            scrollX:direction === 'horizontal',
             scrollY:direction === 'vertical',
             probeType: 3,
             click: click,
             bounce: {
                 top: bounceTop,
                 bottom: bounceBottom
-            }
+            },
+            mouseWheel: true
         })
         setBScroll(scroll);
         return ()=>{
@@ -124,5 +101,32 @@ const Scroll = forwardRef((props,ref)=>{
         </ScrollContainer>
     );
 })
+
+
+Scroll.propTypes = {
+    direction: PropTypes.oneOf (['vertical', 'horizental']),// 滚动的方向
+    click: true,// 是否支持点击import BScroll from "better-scroll"
+    refresh: PropTypes.bool,// 是否刷新
+    onScroll: PropTypes.func,// 滑动触发的回调函数
+    pullUp: PropTypes.func,// 上拉加载逻辑
+    pullDown: PropTypes.func,// 下拉加载逻辑
+    pullUpLoading: PropTypes.bool,// 是否显示上拉 loading 动画
+    pullDownLoading: PropTypes.bool,// 是否显示下拉 loading 动画
+    bounceTop: PropTypes.bool,// 是否支持向上吸顶
+    bounceBottom: PropTypes.bool// 是否支持向下吸底
+};
+
+Scroll.defaultProps = {
+    direction: "vertical",
+    click: true,
+    refresh: true,
+    onScroll:null,
+    pullUpLoading: false,
+    pullDownLoading: false,
+    pullUp: null,
+    pullDown: null,
+    bounceTop: true,
+    bounceBottom: true
+};
 
 export default Scroll;

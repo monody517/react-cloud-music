@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="221446cf-b8fb-47ba-9a76-01ebc969fe0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/RecommendList/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RecommendList/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/lyric-parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/request.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Recommend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Recommend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baseUI/scroll/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/baseUI/scroll/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -60,6 +54,9 @@
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,6 +68,7 @@
       <updated>1644465234472</updated>
       <workItem from="1644465236046" duration="4803000" />
       <workItem from="1644477537205" duration="3211000" />
+      <workItem from="1644825857858" duration="1508000" />
     </task>
     <servers />
   </component>
