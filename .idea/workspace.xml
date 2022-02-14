@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="221446cf-b8fb-47ba-9a76-01ebc969fe0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/lyric-parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RecommendList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RecommendList/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/lyric-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Recommend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Recommend/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644465234472</updated>
       <workItem from="1644465236046" duration="4803000" />
-      <workItem from="1644477537205" duration="1407000" />
+      <workItem from="1644477537205" duration="3211000" />
     </task>
     <servers />
   </component>
