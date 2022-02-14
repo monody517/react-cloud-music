@@ -4,7 +4,10 @@
     <list default="true" id="221446cf-b8fb-47ba-9a76-01ebc969fe0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Recommend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Recommend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baseUI/scroll/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/baseUI/scroll/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RecommendList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecommendList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RecommendList/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecommendList/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,8 @@
       <updated>1644465234472</updated>
       <workItem from="1644465236046" duration="4803000" />
       <workItem from="1644477537205" duration="3211000" />
-      <workItem from="1644825857858" duration="1508000" />
+      <workItem from="1644825857858" duration="4821000" />
+      <workItem from="1644830689101" duration="1328000" />
     </task>
     <servers />
   </component>

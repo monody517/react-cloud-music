@@ -11,7 +11,7 @@ function Slider(props) {
     const {bannerList} = props
 
     React.useEffect(()=>{
-        if(bannerList.length && !sliderSwiper){
+        if(bannerList&&bannerList.length && !sliderSwiper){
             let newSliderSwiper = new Swiper(".slider-container",{
                 loop: true,
                 autoplay: {
@@ -22,7 +22,7 @@ function Slider(props) {
             })
             setSliderSwiper(newSliderSwiper)
         }
-    },[bannerList.length,sliderSwiper])
+    },[bannerList&&bannerList.length,sliderSwiper])
 
     return (
         <SliderContainer>
@@ -30,11 +30,11 @@ function Slider(props) {
             <div className="slider-container">
                 <div className="swiper-wrapper">
                     {
-                        bannerList.map((slider,index)=>{
+                        bannerList&&bannerList.map((slider,index)=>{
                             return (
                                 <div className="swiper-slide" key={index}>
                                     <div className="slider-nav">
-                                        <img src={slider.imgUrl} width="100%" height="100%" alt="推荐" />
+                                        <img src={slider.imageUrl} width="100%" height="100%" alt="推荐" />
                                     </div>
                                 </div>
                             )
